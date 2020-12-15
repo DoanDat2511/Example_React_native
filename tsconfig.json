@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    "jsx": "react-native",
+    "lib": ["dom", "es2015", "es2016"],
+    "noEmit": true,
+    "pretty": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "types": ["react", "react-native", "jest", "node"],
+    "skipLibCheck": true,
+    "version": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "noUnusedLocals": false,
+    "sourceMap": true
+  },
+  "include": ["src/**/*", "index.js"],
+  "exclude": [
+    "metro.config.js",
+    "babel.config.js",
+    "react-native.config.js",
+    "node_modules",
+    "__tests__",
+    "ios",
+    "android",
+    "__mocks__",
+    ".vscode",
+    "assets"
+  ],
+  "compileOnSave": false
+}
